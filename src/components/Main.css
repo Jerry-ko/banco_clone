@@ -1,0 +1,32 @@
+.carousel .carousel-status {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 5px;
+  font-size: 0px;
+  text-shadow: 1px 1px 1px rgb(0 0 0 / 90%);
+  color: #fff;
+}
+
+.carousel .control-dots {
+  position: absolute;
+  bottom: 50px;
+  margin: 10px 0;
+  padding: 0;
+  text-align: center;
+  width: 100%;
+}
+
+.carousel .control-dots .dot {
+  transition: opacity 0.25s ease-in;
+  opacity: 0.3;
+  filter: alpha(opacity=30);
+  box-shadow: 1px 1px 2px rgb(0 0 0 / 90%);
+  background: #fff;
+  border-radius: 50%;
+  width: 30px;
+  height: 3px;
+  cursor: pointer;
+  display: inline-block;
+  margin: 0 4px;
+}
